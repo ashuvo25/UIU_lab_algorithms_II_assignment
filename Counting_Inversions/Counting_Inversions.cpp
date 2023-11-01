@@ -1,6 +1,5 @@
  /*বিসমিল্লাহির রাহমানির রাহিম */
  /* MD ASADUZZAMAN SHUVO  */
-
 #include<bits/stdc++.h>
 using namespace std;
 
