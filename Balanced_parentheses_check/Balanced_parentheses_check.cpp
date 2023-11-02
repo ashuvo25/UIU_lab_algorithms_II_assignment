@@ -1,9 +1,7 @@
  /*বিসমিল্লাহির রাহমানির রাহিম */
  /* MD ASADUZZAMAN SHUVO  */
-
 #include<bits/stdc++.h>
 using namespace std;
-
 #define ll long long
  int x = 0;
  int y = 0;
@@ -20,7 +18,6 @@ bool validCheck(string &s,int a){
   }
 int main()
 {
- 
     string s;
     cin>>s;
     bool b = validCheck(s,x);
