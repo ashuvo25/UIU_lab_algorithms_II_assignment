@@ -2,15 +2,12 @@
  /* MD ASADUZZAMAN SHUVO  */
 #include<bits/stdc++.h>
 using namespace std;
-
-int marge(int arr[],int l,int mid,int r){
-     
+int marge(int arr[],int l,int mid,int r){   
     int count = 0;
     int s1 = mid-l +1;
     int s2 = r-mid;
     int arr1[s1];
     int arr2[s2];
-
     for(int i = 0 ;i<s1;i++){
         arr1[i] = arr[l+i];
     }
@@ -39,7 +36,6 @@ int marge(int arr[],int l,int mid,int r){
      arr[k] = arr2[j];
        k++; j++;
    }
-
    return count;
 }
 // MERGE SORT
